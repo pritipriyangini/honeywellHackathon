@@ -9,7 +9,7 @@ const routes: Routes = [
         children: [
             { path: '', redirectTo: 'dashboard' },
             { path: 'dashboard', loadChildren: './dashboard/dashboard.module#DashboardModule' },
-            { path: 'manageDevices', loadChildren: './charts/charts.module#ChartsModule' },
+            { path: 'manageDevices', loadChildren: './manage-devices/manage-devices.module#ManageDevicesModule' },
             { path: 'notifications', loadChildren: './tables/tables.module#TablesModule' },
           /*  { path: 'forms', loadChildren: './form/form.module#FormModule' },
             { path: 'bs-element', loadChildren: './bs-element/bs-element.module#BsElementModule' },
