@@ -10,4 +10,6 @@ export class BaseService {
 getConfig() {
   return this.http.get(this.configUrl);
 }
+
+
 }
